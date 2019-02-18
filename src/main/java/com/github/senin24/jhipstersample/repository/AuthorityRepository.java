@@ -1,0 +1,11 @@
+package com.github.senin24.jhipstersample.repository;
+
+import com.github.senin24.jhipstersample.domain.Authority;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+/**
+ * Spring Data JPA repository for the Authority entity.
+ */
+public interface AuthorityRepository extends JpaRepository<Authority, String> {
+}

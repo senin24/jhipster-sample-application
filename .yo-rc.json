@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "jhipsterSampleApplication",
+    "packageName": "com.github.senin24.jhipstersample",
+    "packageFolder": "com/github/senin24/jhipstersample",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": true,
+    "nativeLanguage": "ru",
+    "languages": [
+      "en",
+      "ru"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.1",
+    "jwtSecretKey": "NWE3ZjIzNWQ0ZTQyMjlkNTdkY2EwZTM1NjliZDIwZTRmNzIwMjAwODYyNjg2ZGI0YzQwNzk3Y2YwZmZkZDg2NjRhODYwYmFjMGU1OGI2ZTYzOTg4OTkxNDkzZDVkYjgzYTgwNmFkMzMxNDJkODViNzExMGRhMmNlZTM2NTY5YjM=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "senin24",
+  "repository-name": "jhipster-sample-application"
+}
